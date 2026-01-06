@@ -14,7 +14,11 @@
 <body>
     <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
         <div class="container">
-            <h1 class="navbar-brand m-0 section-title">Tesseract</h1>
+            <h1 class="navbar-brand m-0 section-title">
+                <a href="/" class="nav-link">
+                    Tesseract
+                </a>
+            </h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -48,13 +52,13 @@
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
-                        <img src="img/carousel0.jpg" alt="Imagem Promocional">
+                        <img src="imgs/carousel0.jpg" alt="Imagem Promocional">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="img/carousel1.jpg" alt="Imagem Promocional">
+                        <img src="imgs/carousel1.jpg" alt="Imagem Promocional">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="img/carousel2.jpg" alt="Imagem Promocional">
+                        <img src="imgs/carousel2.jpg" alt="Imagem Promocional">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -73,22 +77,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5">
-                            <img src="img/interior-loja.jpg" class="d-block h-100 w-100 rounded" alt="Foto do espaço interno da loja">
+                            <img src="imgs/interior-loja.jpg" class="d-block h-100 w-100 rounded" alt="Foto do espaço interno da loja">
                         </div>
                         <div class="col-md-7 mt-3 mt-md-0">
                             <h2 class="section-title">Sobre a loja</h2>
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel quae quasi, cum officiis, est repudiandae fugiat necessitatibus veniam sed quam ipsam vero, qui voluptate repellendus. Consequatur voluptatibus ut quod possimus.
+                                A Tesseract Store é especializada em equipamentos e componentes de alta performance para PCs. Oferecemos produtos de última geração, com tecnologia avançada e design inovador, para gamers, criadores de conteúdo e entusiastas de tecnologia. Nosso compromisso é proporcionar qualidade, desempenho e satisfação aos nossos clientes.
                             </p>
-                            <h3 class="section-title">Sobre o espaço</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus maiores incidunt, alias magnam repellendus reiciendis adipisci, consequuntur vel maxime voluptatum praesentium corporis? Natus debitis deleniti consectetur temporibus aliquam assumenda odit!
-                            </p>
-                            <ul>
-                                <li>Item 1</li>
-                                <li>Item 2</li>
-                                <li>Item 3</li>
-                            </ul>
                         </div>
                     </div>
                 </div>
@@ -104,27 +99,73 @@
                 <div class="row">
                     <aside class="col-md-2">
                         <nav class="nav nav-pills flex-column nav-produtos">
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#computador" class="fw-bold text-start nav-link text-colored active">Computador</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#gabinete" class="fw-bold text-start nav-link text-colored active">Gabinete</button>
                             <button type="button" data-bs-toggle="tab" data-bs-target="#processador" class="fw-bold text-start nav-link text-colored">Processador</button>
                             <button type="button" data-bs-toggle="tab" data-bs-target="#placa-video" class="fw-bold text-start nav-link text-colored">Placa de vídeo</button>
                         </nav>
                     </aside>
                     <div class="col-md-10">
                         <div class="tab-content">
-                            <div class="tab-pane active" id="computador">
+                            <div class="tab-pane active" id="gabinete">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="img/pc-gabinete1.jpeg" alt="Gabinete de computador">
-                                        <h5 class="text-colored fw-bold mt-2">Lorem</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit
+                                        <img class="d-block w-100" src="imgs/gabinetes/1-gabinete.png" alt="Gabinete de computador">
+                                        <h5 class="text-colored fw-bold mt-2">Gabinete com Design Angulado e Iluminação RGB</h5>
+                                        <p
+                                            class="desc-produto"
+                                            title="Este gabinete apresenta um design arrojado e angular, com um painel lateral de vidro temperado transparente que destaca a beleza dos componentes internos. A parte frontal conta com três ventoinhas RGB vibrantes, criando um efeito visual futurista. A iluminação personalizável permite criar o ambiente perfeito para qualquer setup gamer."
+                                        >
+                                            Este gabinete apresenta um design arrojado e angular, com um painel lateral de vidro temperado transparente que destaca a beleza dos componentes internos. A parte frontal conta com três ventoinhas RGB vibrantes, criando um efeito visual futurista. A iluminação personalizável permite criar o ambiente perfeito para qualquer setup gamer.
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="img/pc-gabinete2.jpeg" alt="Gabinete de computador">
-                                        <h5 class="text-colored fw-bold mt-2">Lorem</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit
+                                        <img class="d-block w-100" src="imgs/gabinetes/2-gabinete.png" alt="Gabinete de computador">
+                                        <h5 class="text-colored fw-bold mt-2">Gabinete com Painel Frontal Mesh e Fluxo de Ar Otimizado</h5>
+                                        <p
+                                            class="desc-produto"
+                                            title="Com um painel frontal em malha de metal, este gabinete prioriza o fluxo de ar, oferecendo excelente refrigeração. O design minimalista e elegante é complementado por um painel lateral de vidro temperado, revelando o interior iluminado com LED RGB, perfeito para quem busca desempenho e estética."
+                                        >
+                                            Com um painel frontal em malha de metal, este gabinete prioriza o fluxo de ar, oferecendo excelente refrigeração. O design minimalista e elegante é complementado por um painel lateral de vidro temperado, revelando o interior iluminado com LED RGB, perfeito para quem busca desempenho e estética.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imgs/gabinetes/3-gabinete.png" alt="Gabinete de computador">
+                                        <h5 class="text-colored fw-bold mt-2">Gabinete Compacto de Vidro e Alumínio</h5>
+                                        <p
+                                            class="desc-produto"
+                                            title="Este modelo compacto, feito em alumínio escovado e vidro temperado, oferece um visual clean e sofisticado. O gabinete é ideal para quem deseja montar um computador potente sem comprometer o espaço. A iluminação RGB suave nas ventoinhas e detalhes do gabinete confere um toque futurista, sem exageros."
+                                        >
+                                            Este modelo compacto, feito em alumínio escovado e vidro temperado, oferece um visual clean e sofisticado. O gabinete é ideal para quem deseja montar um computador potente sem comprometer o espaço. A iluminação RGB suave nas ventoinhas e detalhes do gabinete confere um toque futurista, sem exageros.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imgs/gabinetes/4-gabinete.png" alt="Gabinete de computador">
+                                        <h5 class="text-colored fw-bold mt-2">Gabinete Estilo Torre com Iluminação Personalizada</h5>
+                                        <p
+                                            class="desc-produto"
+                                            title="Inspirado em um design de torre vertical, este gabinete possui um formato imponente e elegante. O lado direito é composto por um painel de vidro temperado, enquanto a frente conta com uma iluminação RGB que pode ser controlada para exibir uma variedade de cores e efeitos. O fluxo de ar eficiente é garantido por ventoinhas de alta performance."
+                                        >
+                                            Inspirado em um design de torre vertical, este gabinete possui um formato imponente e elegante. O lado direito é composto por um painel de vidro temperado, enquanto a frente conta com uma iluminação RGB que pode ser controlada para exibir uma variedade de cores e efeitos. O fluxo de ar eficiente é garantido por ventoinhas de alta performance.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imgs/gabinetes/5-gabinete.png" alt="Gabinete de computador">
+                                        <h5 class="text-colored fw-bold mt-2">Gabinete de Estilo Futurista com Frontão Geométrico</h5>
+                                        <p
+                                            class="desc-produto"
+                                            title="Este gabinete se destaca pelo painel frontal geométrico e iluminação RGB que segue as linhas angulares, criando um efeito dinâmico. A estrutura é robusta, com metal e vidro de alta qualidade. O design inovador é perfeito para quem busca um visual futurista e moderno para seu setup de trabalho ou jogos."
+                                        >
+                                            Este gabinete se destaca pelo painel frontal geométrico e iluminação RGB que segue as linhas angulares, criando um efeito dinâmico. A estrutura é robusta, com metal e vidro de alta qualidade. O design inovador é perfeito para quem busca um visual futurista e moderno para seu setup de trabalho ou jogos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imgs/gabinetes/6-gabinete.png" alt="Gabinete de computador">
+                                        <h5 class="text-colored fw-bold mt-2">Gabinete Branco com Design Minimalista e Iluminação Sutil</h5>
+                                        <p
+                                            class="desc-produto"
+                                            title="Um gabinete de cores claras, com acabamento branco e um design simplista que foca na funcionalidade. Com painéis de vidro temperado e ventoinhas RGB de iluminação suave, é ideal para quem deseja um visual elegante e limpo, sem abrir mão da performance. A iluminação pode ser ajustada para criar um ambiente calmo e sofisticado."
+                                        >
+                                            Um gabinete de cores claras, com acabamento branco e um design simplista que foca na funcionalidade. Com painéis de vidro temperado e ventoinhas RGB de iluminação suave, é ideal para quem deseja um visual elegante e limpo, sem abrir mão da performance. A iluminação pode ser ajustada para criar um ambiente calmo e sofisticado.
                                         </p>
                                     </div>
                                 </div>
@@ -132,17 +173,63 @@
                             <div class="tab-pane" id="processador">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="img/processador1.jpg" alt="Processador">
-                                        <h5 class="text-colored fw-bold mt-2">Lorem</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit
+                                        <img class="d-block w-100" src="imgs/processadores/1-processador.jpg" alt="Processador">
+                                        <h5 class="text-colored fw-bold mt-2">Processador AMD Ryzen 7 5700X</h5>
+                                        <p
+                                            class="desc-produto"
+                                            title="O Ryzen 7 5700X conta com 8 núcleos otimizados para plataformas de jogos de alto FPS. Os processadores AMD Ryzen série 5000 capacitam a próxima geração de jogos exigentes, proporcionando experiências imersivas únicas e dominando qualquer tarefa multithread como 3D e renderização de vídeo e compilação de software."
+                                        >
+                                            O Ryzen 7 5700X conta com 8 núcleos otimizados para plataformas de jogos de alto FPS. Os processadores AMD Ryzen série 5000 capacitam a próxima geração de jogos exigentes, proporcionando experiências imersivas únicas e dominando qualquer tarefa multithread como 3D e renderização de vídeo e compilação de software.
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="img/processador2.jpg" alt="Processador">
-                                        <h5 class="text-colored fw-bold mt-2">Lorem</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit
+                                        <img class="d-block w-100" src="imgs/processadores/2-processador.jpg" alt="Processador">
+                                        <h5 class="text-colored fw-bold mt-2">Processador AMD Ryzen 5 5600GT</h5>
+                                        <p
+                                            class="desc-produto"
+                                            title="O Ryzen 5 5600GT conta com 6 núcleos incríveis para quem quer apenas jogar. Os processadores AMD Ryzen série 5000 capacitam a próxima geração de jogos exigentes, proporcionando experiências imersivas únicas e dominando qualquer tarefa multithread como 3D e renderização de vídeo e compilação de software."
+                                        >
+                                            O Ryzen 5 5600GT conta com 6 núcleos incríveis para quem quer apenas jogar. Os processadores AMD Ryzen série 5000 capacitam a próxima geração de jogos exigentes, proporcionando experiências imersivas únicas e dominando qualquer tarefa multithread como 3D e renderização de vídeo e compilação de software.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imgs/processadores/3-processador.jpg" alt="Processador">
+                                        <h5 class="text-colored fw-bold mt-2">PROCESSADOR AMD RYZEN 7 7800X3D</h5>
+                                        <p
+                                            class="desc-produto"
+                                            title="O Ryzen 7 7800X3D conta com 8 núcleos incríveis para quem quer jogar. Os processadores AMD Ryzen série 7000 capacitam a próxima geração de jogos exigentes, proporcionando experiências imersivas únicas e dominando qualquer tarefa multithread como 3D e renderização de vídeo e compilação de software."
+                                        >
+                                            O Ryzen 7 7800X3D conta com 8 núcleos incríveis para quem quer jogar. Os processadores AMD Ryzen série 7000 capacitam a próxima geração de jogos exigentes, proporcionando experiências imersivas únicas e dominando qualquer tarefa multithread como 3D e renderização de vídeo e compilação de software.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imgs/processadores/4-processador.jpg" alt="Processador">
+                                        <h5 class="text-colored fw-bold mt-2">PROCESSADOR INTEL CORE I5 14400F</h5>
+                                        <p
+                                            class="desc-produto"
+                                            title="Esta nova geração de processadores continua a utilizar a arquitetura híbrida de desempenho da Intel para otimizar seus jogos, criação de conteúdo e produtividade. Aproveite a inovação da plataforma projetada para oferecer flexibilidade e turbine o desempenho da sua CPU com um conjunto poderoso de ferramentas de ajuste e overclocking. O suporte para chipsets da série Intel 700 e a compatibilidade retroativa com os chipsets da série Intel 600 permitem acessar os recursos de que você precisa para qualquer tarefa."
+                                        >
+                                            Esta nova geração de processadores continua a utilizar a arquitetura híbrida de desempenho da Intel para otimizar seus jogos, criação de conteúdo e produtividade. Aproveite a inovação da plataforma projetada para oferecer flexibilidade e turbine o desempenho da sua CPU com um conjunto poderoso de ferramentas de ajuste e overclocking. O suporte para chipsets da série Intel 700 e a compatibilidade retroativa com os chipsets da série Intel 600 permitem acessar os recursos de que você precisa para qualquer tarefa.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imgs/processadores/5-processador.jpg" alt="Processador">
+                                        <h5 class="text-colored fw-bold mt-2">PROCESSADOR INTEL CORE I5 12400F</h5>
+                                        <p
+                                            class="desc-produto"
+                                            title="Processador de desktop Intel Core i5-12400F de 12ª geração. Apresentando suporte PCIe Gen 5.0 e 4.0, suporte DDR5 e DDR4, os processadores Intel Core para desktop de 12ª Geração são otimizados para gamers entusiastas e produtores, oferecendo alto desempenho."
+                                        >
+                                            Processador de desktop Intel Core i5-12400F de 12ª geração. Apresentando suporte PCIe Gen 5.0 e 4.0, suporte DDR5 e DDR4, os processadores Intel Core para desktop de 12ª Geração são otimizados para gamers entusiastas e produtores, oferecendo alto desempenho.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imgs/processadores/6-processador.jpg" alt="Processador">
+                                        <h5 class="text-colored fw-bold mt-2">PROCESSADOR INTEL CORE I7 14700K</h5>
+                                        <p
+                                            class="desc-produto"
+                                            title="Esta nova geração de processadores continua a utilizar a arquitetura híbrida de desempenho da Intel1 para otimizar seus jogos, criação de conteúdo e produtividade. Aproveite a inovação da plataforma projetada para oferecer flexibilidade e turbine o desempenho da sua CPU com um conjunto poderoso de ferramentas de ajuste e overclocking. O suporte para chipsets da série Intel® 700 e a compatibilidade retroativa com os chipsets da série Intel® 600 permitem acessar os recursos de que você precisa para qualquer tarefa."
+                                        >
+                                            Esta nova geração de processadores continua a utilizar a arquitetura híbrida de desempenho da Intel1 para otimizar seus jogos, criação de conteúdo e produtividade. Aproveite a inovação da plataforma projetada para oferecer flexibilidade e turbine o desempenho da sua CPU com um conjunto poderoso de ferramentas de ajuste e overclocking. O suporte para chipsets da série Intel® 700 e a compatibilidade retroativa com os chipsets da série Intel® 600 permitem acessar os recursos de que você precisa para qualquer tarefa.
                                         </p>
                                     </div>
                                 </div>
@@ -150,17 +237,63 @@
                             <div class="tab-pane" id="placa-video">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="img/placa-video2.jpg" alt="Placa de vídeo">
-                                        <h5 class="text-colored fw-bold mt-2">Lorem</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit
+                                        <img class="d-block w-100" src="imgs/pVideo/1-video.jpg" alt="Placa de vídeo">
+                                        <h5 class="text-colored fw-bold mt-2">AMD Radeon RX 7600 EVO OC Edition</h5>
+                                        <p
+                                            class="desc-produto"
+                                            title="A placa de vídeo AMD Radeon RX 7600 define um novo nível de desempenho para gamers e streamers. Apresentando unidades de computação AMD RDNA 3 unificadas e velocidades de clock incrivelmente rápidas, para permitir desempenho avançado de jogos com alta taxa de atualização em 1080p."
+                                        >
+                                            A placa de vídeo AMD Radeon RX 7600 define um novo nível de desempenho para gamers e streamers. Apresentando unidades de computação AMD RDNA 3 unificadas e velocidades de clock incrivelmente rápidas, para permitir desempenho avançado de jogos com alta taxa de atualização em 1080p.
                                         </p>
                                     </div>
                                     <div class="col-md-3">
-                                        <img class="d-block w-100" src="img/placa-video3.jpg" alt="Placa de vídeo">
-                                        <h5 class="text-colored fw-bold mt-2">Lorem</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit
+                                        <img class="d-block w-100" src="imgs/pVideo/2-video.jpg" alt="Placa de vídeo">
+                                        <h5 class="text-colored fw-bold mt-2">AMD Radeon RX 9070 XT Challenger</h5>
+                                        <p
+                                            class="desc-produto"
+                                            title="Tecnologias avançadas de geração de quadros e upscaling com tecnologia ML de ponta chegam ao AMD FidelityFX™ Super Resolution 4. Experimente novos níveis de imersão, enquanto aumenta suas taxas de quadros em títulos suportados."
+                                        >
+                                            Tecnologias avançadas de geração de quadros e upscaling com tecnologia ML de ponta chegam ao AMD FidelityFX™ Super Resolution 4. Experimente novos níveis de imersão, enquanto aumenta suas taxas de quadros em títulos suportados.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imgs/pVideo/3-video.jpg" alt="Placa de vídeo">
+                                        <h5 class="text-colored fw-bold mt-2">Intel Arc B580 Limited Edition</h5>
+                                        <p
+                                            class="desc-produto"
+                                            title="A Arc B580 Limited Edition utiliza a arquitetura Xe2, que proporciona um aumento de 70% no desempenho por núcleo em comparação com a geração anterior. Com 12 GB de memória GDDR6 e uma interface de 192 bits, a placa oferece largura de banda de 456 GB/s, garantindo desempenho robusto em jogos modernos."
+                                        >
+                                            A Arc B580 Limited Edition utiliza a arquitetura Xe2, que proporciona um aumento de 70% no desempenho por núcleo em comparação com a geração anterior. Com 12 GB de memória GDDR6 e uma interface de 192 bits, a placa oferece largura de banda de 456 GB/s, garantindo desempenho robusto em jogos modernos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imgs/pVideo/4-video.jpg" alt="Placa de vídeo">
+                                        <h5 class="text-colored fw-bold mt-2">Intel Arc B580 Milestone</h5>
+                                        <p
+                                            class="desc-produto"
+                                            title="A Arc B580 Milestone utiliza a arquitetura Xe2, que proporciona um aumento de 70% no desempenho por núcleo em comparação com a geração anterior. Com 12 GB de memória GDDR6 e uma interface de 192 bits, a placa oferece largura de banda de 456 GB/s, garantindo desempenho robusto em jogos modernos."
+                                        >
+                                            A Arc B580 Milestone utiliza a arquitetura Xe2, que proporciona um aumento de 70% no desempenho por núcleo em comparação com a geração anterior. Com 12 GB de memória GDDR6 e uma interface de 192 bits, a placa oferece largura de banda de 456 GB/s, garantindo desempenho robusto em jogos modernos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imgs/pVideo/5-video.jpg" alt="Placa de vídeo">
+                                        <h5 class="text-colored fw-bold mt-2">NVIDIA GeForce RTX 5060 Ti Infinity 3</h5>
+                                        <p
+                                            class="desc-produto"
+                                            title="Construções SFF Infinity 3 Series estão ganhando popularidade por bons motivos. Elas economizam espaço, reduzem a desordem e oferecem mais portabilidade. A Palit GeForce RTX™ 5060 Ti Série Infinity 3 foi projetada com esse objetivo em mente: oferecer a potência de uma GPU de ponta em um formato que se encaixa em gabinetes compactos de PC."
+                                        >
+                                            Construções SFF Infinity 3 Series estão ganhando popularidade por bons motivos. Elas economizam espaço, reduzem a desordem e oferecem mais portabilidade. A Palit GeForce RTX™ 5060 Ti Série Infinity 3 foi projetada com esse objetivo em mente: oferecer a potência de uma GPU de ponta em um formato que se encaixa em gabinetes compactos de PC.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imgs/pVideo/6-video.jpg" alt="Placa de vídeo">
+                                        <h5 class="text-colored fw-bold mt-2">NVIDIA GeForce RTX 5070 Ti</h5>
+                                        <p
+                                            class="desc-produto"
+                                            title="Destemido e ousado, o GAMING TRIO oferece desempenho robusto tanto para jogos quanto para criação de conteúdo. Ele combina um visual imponente com tecnologias de resfriamento avançadas, tornando-o um aliado inabalável no campo de batalha dos jogos. O GAMING TRIO é a escolha ideal para jogadores que se esforçam ao máximo."
+                                        >
+                                            Destemido e ousado, o GAMING TRIO oferece desempenho robusto tanto para jogos quanto para criação de conteúdo. Ele combina um visual imponente com tecnologias de resfriamento avançadas, tornando-o um aliado inabalável no campo de batalha dos jogos. O GAMING TRIO é a escolha ideal para jogadores que se esforçam ao máximo.
                                         </p>
                                     </div>
                                 </div>
@@ -238,7 +371,7 @@
 
     <footer>
         <div class="text-center">
-            2024 &copy; Desenvolido por Mono Cardoso
+            2024 &copy; Desenvolvido por Mono Cardoso
         </div>
     </footer>
 
