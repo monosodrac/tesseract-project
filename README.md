@@ -1,15 +1,41 @@
-# Tesseract Store
+# 🛍️ Tesseract Store
 
-## Projeto desenvolvido durante o curso de Desenvolvedor Full-Stack Python pela EBAC
+Projeto desenvolvido durante o curso **Desenvolvedor Full-Stack Python** da [EBAC](https://ebaconline.com.br/).
+
+🌐 **Objetivo:** Aplicar diversos conceitos de desenvolvimento web em um único projeto, combinando **Bootstrap**, **responsividade** e **interatividade com jQuery** para criar uma experiência de navegação moderna e funcional.
+
+📎 [Acesse aqui](https://tesseract-store.vercel.app/)
 
 ---
 
-Este projeto é uma aplicação prática dos diversos conceitos abordados no curso, destacando-se:
+## 📚 Conceitos Aplicados
 
-- **Bootstrap Carrossel:** Implementação de um carrossel com três imagens, botões funcionais para navegação e uso de containers para alinhamento centralizado do conteúdo, proporcionando uma experiência de usuário limpa e agradável.
+- ✅ Carrossel com Bootstrap  
+- ✅ Layout responsivo com ocultação de navbar e menu-hambúrguer  
+- ✅ Formulários com máscaras e placeholders usando jQuery  
+- ✅ Feedback em tempo real no console  
+- ✅ Organização semântica e boas práticas no código  
 
-- **Responsividade:** Adaptação da página para diferentes tamanhos de tela, com ocultação do navbar em telas menores e uso de menu-hambúrguer para melhor interação.
+---
 
-- **jQuery e Formulários:** Utilização do jQuery para criação de formulários com máscaras e placeholders, facilitando a inserção de dados pelos usuários e exibindo feedback no console.
+## 🛠️ Tecnologias Utilizadas
 
-Confira o projeto em: [Tesseract Store](https://tesseract-store.vercel.app/)
+- HTML5  
+- CSS3  
+- Bootstrap  
+- jQuery  
+- Visual Studio Code (VS Code)
+
+---
+
+## 📁 Estrutura do Repositório
+
+```bash
+📂 tesseract-store/
+├── img/
+├── js/
+│   ├── main.js
+│   └── ...
+├── README.md
+├── index.html
+└── main.css/
